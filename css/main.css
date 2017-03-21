@@ -1,3 +1,4 @@
+/* line 3, sass/main.scss */
 body {
   font-family: "Raleway", sans-serif;
   font-weight: normal;
@@ -5,15 +6,22 @@ body {
   min-width: 320px;
   position: relative;
   line-height: 1.42857;
-  -webkit-font-smoothing: antialised; }
+  -webkit-font-smoothing: antialised;
+}
 
+/* line 13, sass/main.scss */
 body input:focus:required:invalid,
 body textarea:focus:required:invalid {
-  color: red; }
+  color: red;
+}
 
+/* line 17, sass/main.scss */
 body input:required:valid,
 body textarea:required:valid {
-  color: green; }
+  color: green;
+}
 
+/* line 22, sass/main.scss */
 .hidden {
-  display: none; }
+  display: none;
+}
